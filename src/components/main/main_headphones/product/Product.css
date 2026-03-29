@@ -1,0 +1,24 @@
+.product_block {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 500px));
+  margin-bottom: 22px;
+}
+
+.product_info {
+  max-width: 600px;
+  width: 500px;
+  background: #f9f9f9;
+  border-radius: 15px;
+
+  h2 {
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    column-rule: #1c1c27;
+    margin-bottom: 20px;
+    padding: 20px 0px 20px 22px;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 10%));
+    border-radius: 15px;
+  }
+}

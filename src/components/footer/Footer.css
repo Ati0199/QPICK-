@@ -1,0 +1,10 @@
+.footer {
+  width: 100%;
+  background: #fff;
+  display: grid;
+
+  grid-template-columns: 90px 450px 175px;
+  justify-content: space-between;
+  border-radius: 30px 30px;
+  padding: 25px 28px;
+}

@@ -1,0 +1,20 @@
+.baner {
+  background-color: #101010;
+  border-radius: 30px;
+  width: 100%;
+  max-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+
+  h1 {
+    color: #fff;
+    width: 30%;
+  }
+
+  img {
+    width: 315px;
+    transform: translateY(40px);
+  }
+}

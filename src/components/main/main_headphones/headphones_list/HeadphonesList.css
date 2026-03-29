@@ -1,0 +1,13 @@
+.headphones_block {
+  h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #838383;
+  }
+  .headphones {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 350px));
+    margin: 20px 0px;
+  }
+}

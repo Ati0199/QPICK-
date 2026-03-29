@@ -1,0 +1,336 @@
+{
+  "phonedata": [
+    {
+      "brendName": "Apple",
+      "phone": [
+        {
+          "id": "1",
+          "name": "iPhone 12"
+        },
+        {
+          "id": "2",
+          "name": "iPhone 12 Max"
+        },
+        {
+          "id": "3",
+          "name": "iPhone 13"
+        },
+        {
+          "id": "4",
+          "name": "iPhone 13 Max"
+        },
+        {
+          "id": "5",
+          "name": "iPhone 13 Pro Max"
+        },
+        {
+          "id": "6",
+          "name": "iPhone 14"
+        }
+      ],
+      "id": "3d1e"
+    },
+    {
+      "brendName": "Samsung",
+      "phone": [
+        {
+          "id": "1",
+          "name": "bla"
+        },
+        {
+          "id": "2",
+          "name": "bla-bla"
+        },
+        {
+          "id": "3",
+          "name": "bla-bla"
+        },
+        {
+          "id": "4",
+          "name": "bla-bla"
+        }
+      ],
+      "id": "b837"
+    },
+    {
+      "brendName": "Xiaomi",
+      "phone": [
+        {
+          "id": "1",
+          "name": "bla-bla"
+        },
+        {
+          "id": "2",
+          "name": "bla-bla"
+        },
+        {
+          "id": "3",
+          "name": "bla-bla"
+        },
+        {
+          "id": "4",
+          "name": "bla-bla"
+        },
+        {
+          "id": "5",
+          "name": "bla-bla"
+        }
+      ],
+      "id": "d3df"
+    }
+  ],
+  "baner": [
+    {
+      "product": "Аксессуары для Iphone 13 Pro Max",
+      "img": "iphone-13-pro-max.png",
+      "id": "7aae"
+    }
+  ],
+  "cases": [
+    {
+      "img": "glass_case.png",
+      "name": "Стеклянные",
+      "id": "73f6"
+    },
+    {
+      "img": "silicone_case.png",
+      "name": "Силиконовые",
+      "id": "bfb4"
+    },
+    {
+      "img": "leather_case.png",
+      "name": "Кожаные",
+      "id": "5f44"
+    }
+  ],
+  "headphones": [
+    {
+      "productName": "Apple_BYZ_S852I",
+      "path": "Apple_BYZ_S852I.png",
+      "price": 2927,
+      "discount": 20,
+      "isFavorite": false,
+      "onBasket": true,
+      "rating": 4.7,
+      "id": "e4b4",
+      "description": [
+        {
+          "label": "Активное шумоподавление",
+          "value": "Нет"
+        },
+        {
+          "label": "Вес",
+          "value": "10 гр"
+        },
+        {
+          "label": "Влагозащита",
+          "value": "Нет"
+        },
+        {
+          "label": "Длина кабеля",
+          "value": "1.2 м"
+        },
+        {
+          "label": "Комплектация",
+          "value": "Наушники"
+        },
+        {
+          "label": "Материал корпуса",
+          "value": "Пластик, резина"
+        },
+        {
+          "label": "Микрофон",
+          "value": "Да"
+        },
+        {
+          "label": "Назначение",
+          "value": "Проводные наушники"
+        },
+        {
+          "label": "Ответить/закончить разговор",
+          "value": "Да"
+        },
+        {
+          "label": "Разъем наушников",
+          "value": "Lightning"
+        },
+        {
+          "label": "Регулятор громкости",
+          "value": "Да"
+        },
+        {
+          "label": "Тип крепления",
+          "value": "Без крепления"
+        },
+        {
+          "label": "Тип наушников",
+          "value": "Вкладыши (таблетки)"
+        },
+        {
+          "label": "Тип подключения",
+          "value": "Проводное"
+        },
+        {
+          "label": "Частотный диапазон",
+          "value": "20 Гц - 20000 Гц"
+        },
+        {
+          "label": "Чувствительность",
+          "value": "109 дБ"
+        }
+      ]
+    },
+    {
+      "productName": "Apple EarPods",
+      "path": "Apple_EarPods.png",
+      "price": 2327,
+      "discount": 50,
+      "isFavorite": true,
+      "onBasket": false,
+      "rating": 4.5,
+      "id": "ec85",
+      "description": [
+        {
+          "label": "Активное шумоподавление",
+          "value": "Нет"
+        },
+        {
+          "label": "Вес",
+          "value": "10 гр"
+        },
+        {
+          "label": "Влагозащита",
+          "value": "Нет"
+        },
+        {
+          "label": "Длина кабеля",
+          "value": "1.2 м"
+        },
+        {
+          "label": "Комплектация",
+          "value": "Наушники"
+        },
+        {
+          "label": "Материал корпуса",
+          "value": "Пластик"
+        },
+        {
+          "label": "Микрофон",
+          "value": "Да"
+        },
+        {
+          "label": "Назначение",
+          "value": "Проводные наушники"
+        },
+        {
+          "label": "Ответить/закончить разговор",
+          "value": "Да"
+        },
+        {
+          "label": "Разъем наушников",
+          "value": "Lightning"
+        },
+        {
+          "label": "Регулятор громкости",
+          "value": "Да"
+        },
+        {
+          "label": "Тип крепления",
+          "value": "Без крепления"
+        },
+        {
+          "label": "Тип наушников",
+          "value": "Вкладыши"
+        },
+        {
+          "label": "Тип подключения",
+          "value": "Проводное"
+        },
+        {
+          "label": "Частотный диапазон",
+          "value": "20 Гц - 20000 Гц"
+        },
+        {
+          "label": "Чувствительность",
+          "value": "108 дБ"
+        }
+      ]
+    },
+    {
+      "productName": "Apple EarPods",
+      "path": "Apple_EarPods2.png",
+      "price": 2927,
+      "discount": 0,
+      "isFavorite": true,
+      "onBasket": false,
+      "rating": 4.5,
+      "id": "816c",
+      "description": [
+        {
+          "label": "Активное шумоподавление",
+          "value": "Нет"
+        },
+        {
+          "label": "Вес",
+          "value": "10 гр"
+        },
+        {
+          "label": "Влагозащита",
+          "value": "Нет"
+        },
+        {
+          "label": "Длина кабеля",
+          "value": "1.2 м"
+        },
+        {
+          "label": "Комплектация",
+          "value": "Наушники, коробка"
+        },
+        {
+          "label": "Материал корпуса",
+          "value": "Пластик"
+        },
+        {
+          "label": "Микрофон",
+          "value": "Да"
+        },
+        {
+          "label": "Назначение",
+          "value": "Проводные наушники"
+        },
+        {
+          "label": "Ответить/закончить разговор",
+          "value": "Да"
+        },
+        {
+          "label": "Разъем наушников",
+          "value": "Lightning"
+        },
+        {
+          "label": "Регулятор громкости",
+          "value": "Да"
+        },
+        {
+          "label": "Тип крепления",
+          "value": "Без крепления"
+        },
+        {
+          "label": "Тип наушников",
+          "value": "Вкладыши"
+        },
+        {
+          "label": "Тип подключения",
+          "value": "Проводное"
+        },
+        {
+          "label": "Частотный диапазон",
+          "value": "20 Гц - 20000 Гц"
+        },
+        {
+          "label": "Чувствительность",
+          "value": "108 дБ"
+        }
+      ]
+    }
+  ]
+}

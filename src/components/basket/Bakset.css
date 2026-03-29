@@ -1,0 +1,88 @@
+.prod_service {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  column-gap: 24px;
+  width: 100%;
+}
+
+.prod-service-info {
+  margin-bottom: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 10%));
+  background: #fff;
+  border-radius: 30px;
+  padding: 18px;
+
+  .prod_price-single {
+    position: absolute;
+    right: 28px;
+    bottom: 22px;
+    color: #1c1c27;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .prod_price {
+    color: #aaaaaa;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .prod_name {
+    margin-bottom: 12px;
+    color: #1c1c27;
+    font-size: 17px;
+  }
+}
+.prod_count-btn {
+  width: 35px;
+  height: 30px;
+  background: #ffce7f;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+.prod_count-block {
+  max-width: 150px;
+  width: 100%;
+  /* filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 10%)); */
+
+  img {
+    width: 150px;
+    height: 140px;
+    object-fit: contain;
+  }
+  .prod_count_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.prod_proccesed {
+  display: grid;
+  align-items: end;
+  max-width: 350px;
+  height: 120px;
+  border-radius: 30px;
+  width: 100%;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 10%));
+  background: #fff;
+  .prod_proccesed-info {
+    padding-inline: 16px;
+    display: flex;
+    justify-content: space-between;
+    p {
+      color: #000;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .prod_total-price {
+      color: #000;
+      font-weight: 600;
+      font-size: 15px;
+    }
+  }
+}

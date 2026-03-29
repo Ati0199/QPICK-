@@ -1,0 +1,28 @@
+.skeleton-menu {
+  width: 200px;
+  min-height: 50px;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  animation: pulse 1.5s infinite alternate ease;
+  .skeleton-item {
+    margin: 5px 0px;
+    border-radius: 4px;
+    width: 200px;
+    height: 21px;
+    background-color: #c4c4c4;
+    animation: pulse 1.5s infinite alternate ease;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

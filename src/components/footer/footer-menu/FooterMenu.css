@@ -1,0 +1,32 @@
+.footer_refs {
+  display: flex;
+  justify-content: space-between;
+
+  .footer_menu {
+    display: grid;
+    row-gap: 12px;
+    ul {
+      li {
+        list-style-type: none;
+
+        .f_link {
+          color: #000;
+          text-decoration: none;
+        }
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .footer_service-tr {
+    p {
+      font-size: 17px;
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+}

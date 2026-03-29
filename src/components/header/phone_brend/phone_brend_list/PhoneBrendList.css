@@ -1,0 +1,40 @@
+.phone_model {
+  max-width: 240px;
+  min-width: 200px;
+
+  cursor: pointer;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+
+  p {
+    font-weight: 500;
+    font-size: 17px;
+    color: #1c1c27;
+  }
+}
+
+.phones {
+  animation: animationMenuDown 0.4s ease;
+}
+
+@keyframes animationMenuDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes animationMenuUp {
+  from {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+}

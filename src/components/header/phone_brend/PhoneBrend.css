@@ -1,0 +1,67 @@
+.choose_phone_block {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+
+  .choose_phone_brend {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #101010;
+  }
+}
+
+.phone_models {
+  z-index: 1000;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  background: #eaeaea;
+  box-shadow: 0px 0px 20px #101010;
+  padding: 20px 25px;
+  animation: animationMenuDown 0.4s ease;
+}
+
+.animation_up {
+  animation: up 0.25s ease-in;
+  transform: rotate(180deg);
+}
+
+.animation_down {
+  animation: down 0.25s ease-in;
+  transform: rotate(0deg);
+}
+
+@keyframes up {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes down {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animationMenuDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

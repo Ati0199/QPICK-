@@ -1,0 +1,53 @@
+.headphone {
+  display: grid;
+  grid-template-rows: 16px 240px 90px;
+  padding: 15px 20px 33px;
+  background: #fff;
+  border-radius: 30px;
+  /* box-shadow: 0px 0px 20px #000; */
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 10%));
+
+  .headphone_img {
+    margin: 0 auto;
+    width: 220px;
+    height: 240px;
+    object-fit: contain;
+  }
+  .headphone_fav {
+    cursor: pointer;
+  }
+
+  .headphone_info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    .headphones_name {
+      font-weight: 600;
+      font-size: 17px;
+      color: #1c1c27;
+    }
+    .headphone_price {
+      color: #ffa542;
+      font-size: 17px;
+      font-weight: 600;
+    }
+  }
+  .headphone_rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 26px;
+
+    span {
+      font-weight: 600;
+      color: #838383;
+      font-size: 17px;
+    }
+  }
+}
+
+.headphone_single {
+  width: 400px;
+  height: fit-content;
+  margin-bottom: 20px;
+  grid-template-rows: none;
+}

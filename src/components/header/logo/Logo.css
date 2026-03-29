@@ -1,0 +1,11 @@
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #101010;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}

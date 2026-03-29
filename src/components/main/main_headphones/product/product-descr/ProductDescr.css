@@ -1,0 +1,15 @@
+.prod_descr {
+  padding-left: 22px;
+  padding-bottom: 24px;
+  p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #1c1c27;
+    margin: 10px 0px;
+  }
+}
+
+.prod_btns {
+  display: flex;
+  justify-content: space-around;
+}

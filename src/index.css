@@ -1,0 +1,28 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #eaeaea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 14px 0px;
+  background-color: #101010;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 540px;
+  min-width: 100px;
+  width: 100%;
+}
