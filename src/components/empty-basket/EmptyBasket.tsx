@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./EmptyBasket.css";
 export default function EmptyBasket() {
-  console.log(1);
   return (
     <div className="empty_basket-block">
       <img src="/big-basket.png" alt="" />

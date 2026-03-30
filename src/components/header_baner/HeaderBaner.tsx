@@ -15,7 +15,7 @@ export default function HeaderBaner() {
     });
   }, []);
 
-  if (isLoading) return <div>asdasd</div>;
+  if (isLoading) return <div>loading</div>;
 
   const { product, img } = baner[0];
 

@@ -14,9 +14,9 @@ interface IProps {
 export default function Product({ toggleOnBasket }: IProps) {
   const [headphone, setHeadphone] = useState<IHeadphonesData>();
   const { headphonesId } = useParams<string>();
-  const [_, setClicked] = useState(false);
+  const [clicked, setClicked] = useState(false);
   const s = useMemo(() => new Service(), []);
-  console.log(headphonesId);
+
   useEffect(() => {
     if (!headphonesId) return;
     s.getHeadphone(headphonesId).then(setHeadphone);
@@ -25,7 +25,6 @@ export default function Product({ toggleOnBasket }: IProps) {
   const onDiscount = (price: number): number => {
     return price - (price * headphone?.discount!) / 100;
   };
-  console.log(headphone);
 
   if (!headphone) return <div>loading</div>;
   return (
@@ -64,7 +63,7 @@ export default function Product({ toggleOnBasket }: IProps) {
           <a className="btn">Купить!</a>
           <a
             style={
-              headphone.onBasket
+              headphone.onBasket || clicked
                 ? { backgroundColor: "#ffaa4d" }
                 : { backgroundColor: "#101010" }
             }
@@ -72,11 +71,10 @@ export default function Product({ toggleOnBasket }: IProps) {
               setClicked((prev) => !prev);
               toggleOnBasket(headphone.id);
               s.onBasket(headphone.id, !headphone.onBasket);
-              // setClicked(false);
             }}
             className="btn"
           >
-            {`${headphone.onBasket ? "Добавлен в корзину" : "Добавить в корзину!"} `}
+            {`${headphone.onBasket || clicked ? "Добавлен в корзину" : "Добавить в корзину!"} `}
           </a>
         </div>
       </div>

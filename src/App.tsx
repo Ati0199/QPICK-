@@ -51,7 +51,7 @@ export default function App() {
     (item) => item.onBasket === true,
   ).length;
   const favCount = headphones.filter((item) => item.isFavorite == true).length;
-  console.log(onBasketCount, "qweqwerwrwet");
+
   return (
     <div className="container">
       <Header favCount={favCount} onBasketCount={onBasketCount} />

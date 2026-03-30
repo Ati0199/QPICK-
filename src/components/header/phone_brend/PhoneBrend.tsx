@@ -15,8 +15,6 @@ export default function PhoneBrend() {
 
   const s = useMemo(() => new Service(), []);
 
-  console.log(dropDownRef.current);
-
   return (
     <>
       <div className="choose_phone_block">

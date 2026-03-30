@@ -8,8 +8,6 @@ interface IProps {
 }
 
 export default function HeaderButtons({ favCount, onBasketCount }: IProps) {
-  console.log(onBasketCount, "asdasdasdasd");
-  console.log(favCount, "favcount");
   return (
     <div className="favorite_basket-block">
       <Link className="favorite" to="/favorite">

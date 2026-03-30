@@ -20,7 +20,6 @@ export default function MainCases() {
       <h1>Чехлы</h1>
       <div className="cases">
         {cases.map((cs: ICase) => {
-          console.log(cs, "cssssss");
           return <MainCase cas={cs} key={cs.id} />;
         })}
       </div>

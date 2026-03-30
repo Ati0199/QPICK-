@@ -6,7 +6,6 @@ interface IProps {
 }
 
 export default function MainCase({ cas }: IProps) {
-  console.log(cas);
   const { img, name } = cas;
   return (
     <div className="case">

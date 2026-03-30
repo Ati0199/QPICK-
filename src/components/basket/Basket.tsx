@@ -7,7 +7,6 @@ interface IProps {
 }
 
 export default function Basket({ product }: IProps) {
-  console.log(product, "qwert");
   const prodTotalprice = (prod: IProd[]) => {
     return prod.map((item) => item.price).reduce((prev, curr) => prev + curr);
   };
@@ -18,7 +17,6 @@ export default function Basket({ product }: IProps) {
     <>
       <div className="prod_service">
         {product.map((prod, i) => {
-          console.log(prod.productName, "anem");
           return (
             <div key={i} className="prod-service-info">
               <div className="prod_count-block">
